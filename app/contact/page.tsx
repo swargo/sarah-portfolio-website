@@ -1,9 +1,10 @@
 import { Header } from "@/app/_components/Header";
+import { Container } from "../_components/Container";
 
 export default function Contact() {
   return (
-    <div>
+    <Container>
       <Header title={"Contact"} subtitle={"contact subtitle"} />
-    </div>
+    </Container>
   );
 }
