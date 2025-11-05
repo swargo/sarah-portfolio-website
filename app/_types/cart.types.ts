@@ -1,5 +1,5 @@
 import { HTMLAttributes } from "react";
-import { Product } from "./product.types";
+import { ProductProps } from "@/app/_types/product.types";
 
 export interface CartItemBase {
   id: string;
@@ -9,7 +9,7 @@ export interface CartListItem<TItemType extends CartItemBase> {
   /**
    * item in cart
    */
-  item: Product;
+  item: ProductProps;
   /**
    * quantity of item in cart
    */
