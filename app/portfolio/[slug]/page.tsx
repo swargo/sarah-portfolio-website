@@ -1,3 +1,9 @@
+import { Header } from "@/app/_components/Header";
+
 export default function Project() {
-  return <div>Project</div>;
+  return (
+    <div>
+      <Header title={"need dynamic header"} subtitle={"dynamic subtitle"} />
+    </div>
+  );
 }
