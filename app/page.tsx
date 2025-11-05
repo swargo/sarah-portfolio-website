@@ -10,7 +10,7 @@ export default async function Home() {
   return (
     <Container>
       <Header title="Portfolio" subtitle="Subtitle here" />
-      <div className="grid gap-8 grid-cols-2">
+      <div className="grid gap-8 grid-cols-2 mt-15">
         {projects.map((project: ProjectProps) => (
           <div key={project.title}>
             <ProjectCard {...project} />
