@@ -1,0 +1,4 @@
+const FREE_SHIP_MIN = 5000;
+const DEFAULT_TAX_RATE = .0765;
+
+export { FREE_SHIP_MIN, DEFAULT_TAX_RATE };

@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+    --*: initial;
+    --spacing: 4px;
+    --font-body: Inter, sans-serif;
+    --color-primary: oklch(0.731 0.1484 39.57);
+    --color-secondary: oklch(0.8987 0.0301 55.97);
+    --color-tertiary: oklch(0.5208 0.0752 255.02);
+    --color-darkAccent: oklch(0.6066 0 0);
+    --color-lightAccent: oklch(0.9249 0 0);
+    --color-bk: oklch(0 0 0);
+    --color-wh: oklch(1 0 0);
+}
