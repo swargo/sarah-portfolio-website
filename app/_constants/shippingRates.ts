@@ -1,4 +1,4 @@
-import { ShippingGroupProps } from "../types/cart.types";
+import { ShippingGroupProps } from "@/app/_types/cart.types";
 
 export const defaultShippingRates: ShippingGroupProps[] = [
   {
