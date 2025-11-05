@@ -1,13 +1,9 @@
-import { Product } from "@/app/_types/product.types";
+import { ProductProps } from "@/app/_types/product.types";
 import currencyFormatter from "@/app/_utils/currencyFormatter";
 import Link from "next/link";
 import { AddButton } from "./AddButton";
 
-// const Tile = styled.div`
-//   flex-basis: 20%;
-//   }
-
-export const ProductCard = (props: Product) => {
+export const ProductCard = (props: ProductProps) => {
   const { default_price, id, images, name } = props;
   const formattedPrice = currencyFormatter(default_price.unit_amount);
 

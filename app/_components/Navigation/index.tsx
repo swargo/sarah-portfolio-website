@@ -5,13 +5,12 @@ export default function Navigation() {
   return (
     <nav className="w-full px-[80px] py-8 relative">
       <ul className="flex">
-        <div className="flex-1 -mt-25 -ml-10 relative top-0">
+        <div className="flex-1 -mt-4">
           <Link href="/">
-            <Image
-              src="/images/Logo_v2.png"
+            <img
+              src="/images/Logo_V2.jpeg"
               alt="Sahararts brand logo"
-              width={324}
-              height={243}
+              className="max-w-[300px]"
             />
           </Link>
         </div>

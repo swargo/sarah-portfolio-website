@@ -1,13 +1,9 @@
-// const AddButton = styled.button`
-//   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
-// `;
-
-import { Product } from "@/app/_types/product.types";
+import { ProductProps } from "@/app/_types/product.types";
 import { cartContextObject } from "@/app/layout";
 import { Plus } from "lucide-react";
 import { useContext } from "react";
 
-export const AddButton = (props: Product) => {
+export const AddButton = (props: ProductProps) => {
   const context = useContext(cartContextObject);
 
   const addToCart = (e: React.MouseEvent) => {

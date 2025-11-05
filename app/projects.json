@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Goatgoyle",
+        "subtitle": "My Subtitle",
+        "yearMade": "2025",
+        "description": "As the final project of an Animal Anatomy class, we were required to create a new creature that is composed of parts from two or more existing animals. The animals I chose to take pieces from are a goat, a cat, and a bat. Multiple steps were required, one of which was researching and drawing what the skeletal and muscular systems would look like.",
+        "slug": "goatgoyle",
+        "images": [{"src": "/images/Project1_Image1.jpeg", "alt": "A drawing of a goat and gargoyle creature."}, {"src": "/images/Project1_Image2.jpeg", "alt": "A drawing of a skeleton of a goat and gargoyle creature."}]
+    },
+    {
+        "title": "Exterior Architecture - Observational Drawing",
+        "subtitle": "My Subtitle",
+        "yearMade": "2025",
+        "description": "As one of the first projects that I completed at Rocky Mountain College of Art and Design, this piece was a part of an Observational Drawing course. For this, we were instructed to find an exterior piece of architecture and then draw it in two-point perspective. I chose my house as the subject matter and I really tried to focus on including a vast range of values throughout the drawing. Another important aspect of this project was to include various marks for patterns and texture. This project helped me to build observational skills while utilizing mark-making to add depth, form, and texture to the building and its surroundings.",
+        "slug": "exterior-architecture",
+        "images": [{"src": "/images/HouseProject.png", "alt": "A drawing of a house, focusing on perspective and realism."}]
+    },
+    {
+        "title": "The Moonglade Meadow - Book Cover Design",
+        "subtitle": "My Subtitle",
+        "yearMade": "2025",
+        "description": "As an industry purpose project for the Illustration III course at Rocky Mountain College of Art and Design, this project was meant to help us as students tune into our personal style and what we want to do for a career once graduating. I chose to design a book cover around the assigned theme of “Fauna and Flora”. This piece used acrylic paints and ink pens, which are the two mediums that I would most love to work with professionally, while simultaneously portraying my type of artistic style.",
+        "slug": "moonglade-meadow",
+        "images": [{"src": "/images/BookCover.png", "alt": "test"}]
+    }
+]
