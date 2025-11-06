@@ -44,7 +44,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <CartContextProvider context={cartContextObject}>
-          <div className="absolute right-0 -z-10">
+          <div className="absolute right-0 -z-10 -mt-25 md:mt-0">
             <svg
               width="545"
               height="330"

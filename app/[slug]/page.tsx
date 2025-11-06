@@ -18,7 +18,7 @@ export default async function Project({ params }: any) {
 
   return (
     <Container>
-      <div className="w-1/2 mb-20">
+      <div className="md:w-1/2 mb-10 md:mb-20">
         <Header
           title={projTitle}
           subtitle={projSubtitle}
@@ -29,15 +29,17 @@ export default async function Project({ params }: any) {
         <img
           src={coverImage.src}
           alt={coverImage.alt}
-          className="shadow-[4px_4px_4px_4px_rgba(0,0,0,0.25)]"
+          className="md:shadow-[4px_4px_4px_4px_rgba(0,0,0,0.25)] mx-[auto] max-h-[700px]"
         />
-        <p className="my-20 mx-[20%] leading-6">{description}</p>
+        <p className="my-10 md:my-20 mx-6 md:mx-[20%] leading-6">
+          {description}
+        </p>
         {additionalImages.map((image: ImageProps) => (
           <img
             key={image.alt}
             src={image.src}
             alt={image.alt}
-            className="shadow-[4px_4px_4px_4px_rgba(0,0,0,0.25)]"
+            className="md:shadow-[4px_4px_4px_4px_rgba(0,0,0,0.25)] mx-auto max-h-[700px]"
           />
         ))}
       </div>

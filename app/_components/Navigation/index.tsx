@@ -14,7 +14,7 @@ export default function Navigation() {
             />
           </Link>
         </div>
-        <div className="flex-1 flex justify-end">
+        <div className="flex-1 justify-end hidden md:flex">
           <li className="inline mx-6">
             <Link href="/">Portfolio</Link>
           </li>

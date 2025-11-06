@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <FlexContainer>
-      <div className="flex-1 basis-[50%] mr-6">
+      <div className="flex-1 basis-[100%] md:basis-[50%] md:mr-6">
         <Header title={"About Sarah Jones"} subtitle={"Illustrative Artist"} />
         <p className="mt-5">
           Born and raised in Santa Fe, New Mexico, I have always been surrounded
@@ -26,7 +26,7 @@ export default function About() {
           graphite pencils, but to also discover a love of acrylic painting!
         </p>
       </div>
-      <div className="flex-1 basis-[50%] ml-6">
+      <div className="flex-1 basis-[100%] md:basis-[50%] md:ml-6">
         <Image
           src="/images/sarah_about.png"
           width={508}

@@ -4,6 +4,8 @@ export const Container = ({ children }: any) => {
 
 export const FlexContainer = ({ children }: any) => {
   return (
-    <div className="px-3 md:px-[80px] py-5 flex gap-4 pt-27">{children}</div>
+    <div className="px-3 md:px-[80px] py-5 flex gap-4 pt-27 flex-wrap md:flex-nowrap">
+      {children}
+    </div>
   );
 };
