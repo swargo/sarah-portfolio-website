@@ -11,3 +11,7 @@ export interface ImageProps {
   src: string;
   alt: string;
 }
+
+export interface ProjectListProps {
+  projects: ProjectProps[];
+}

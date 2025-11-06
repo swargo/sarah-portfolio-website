@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Navigation() {
   return (
-    <nav className="w-full px-[80px] py-8 relative">
+    <nav className="w-full px-1 md:px-[80px] py-6 md:py-8 relative">
       <ul className="flex">
         <div className="flex-1 -mt-4">
           <Link href="/">

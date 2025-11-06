@@ -11,4 +11,5 @@
     --color-lightAccent: oklch(0.9249 0 0);
     --color-bk: oklch(0 0 0);
     --color-wh: oklch(1 0 0);
+    --breakpoint-md: 768px;
 }
