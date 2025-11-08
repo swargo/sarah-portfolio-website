@@ -14,7 +14,7 @@ export const ProjectCard = (props: ProjectProps) => {
         <img
           src={image.src}
           alt={image.alt}
-          className="max-h-[440px] shadow-[2px_2px_2px_2px_rgba(0,0,0,0.15)]"
+          className="max-h-[440px] shadow-[2px_2px_2px_2px_rgba(0,0,0,0.15)] mx-[auto] md:mx-0"
         />
         <div className="mt-6">
           <h4 className="text-[20px] mb-1">{title}</h4>

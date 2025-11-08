@@ -1,16 +1,15 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Navigation() {
   return (
-    <nav className="w-full px-1 md:px-[80px] py-6 md:py-8 relative">
+    <nav className="w-full px-2 md:px-[80px] py-3 md:py-8 relative">
       <ul className="flex">
-        <div className="flex-1 -mt-4">
+        <div className="flex-1 md:-mt-4">
           <Link href="/">
             <img
               src="/images/Logo_V2.jpeg"
               alt="Sahararts brand logo"
-              className="max-w-[300px]"
+              className="max-w-[200px] md:max-w-[300px]"
             />
           </Link>
         </div>
